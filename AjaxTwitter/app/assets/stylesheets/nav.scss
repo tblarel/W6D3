@@ -1,0 +1,43 @@
+header {
+  width: 100%;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    min-width: 600px;
+    max-width: 100%;
+    width: 100%;
+    height: 60px;
+    margin-bottom:20px;
+    color:white;
+    background-color: #027cb7;
+
+
+  .links {
+    height: 60px;
+    display: flex; 
+    li {
+      display: flex;
+      align-items: center; 
+      margin: 0px 10px 0px 10px;
+      
+      &:hover {
+        border-bottom: 3px solid rgb(101, 119, 134);
+      }
+
+      
+
+      a, input[type='submit']{
+        color: white;
+        background-color: #027cb7;
+      }
+    }
+  }
+}
